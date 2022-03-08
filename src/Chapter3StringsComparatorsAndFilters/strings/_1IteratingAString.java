@@ -1,4 +1,4 @@
-package Chapter3StringsComparatorsAndFilters;
+package Chapter3StringsComparatorsAndFilters.strings;
 
 public class _1IteratingAString {
 

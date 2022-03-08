@@ -1,4 +1,4 @@
-package Chapter3StringsComparatorsAndFilters.comparators;
+package util;
 
 public class Person {
     private final String name;
@@ -15,6 +15,10 @@ public class Person {
 
     public int getAge() {
         return age;
+    }
+
+    public int ageDiference(final Person other){
+        return age - other.age;
     }
 
     @Override

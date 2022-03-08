@@ -12,7 +12,13 @@ public class UsedCollections {
             Arrays.asList("Kate", "ken", "Nick", "Paula", "Zach");
 
     public final static List<String> editors =
-            Arrays.asList("Brian","Jackie","John","Mike");
+            Arrays.asList("Brian", "Jackie", "John", "Mike");
 
 
+    public final static List<Person> people = Arrays.asList(
+            new Person("Jhon", 20),
+            new Person("Sara", 21),
+            new Person("Jane",21),
+            new Person("Greg",35)
+    );
 }
